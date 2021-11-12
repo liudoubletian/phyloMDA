@@ -101,7 +101,7 @@ eBay.comps <- eBay_comps(otu_tab, prior="Dirichlet")
 
 eBay.tree.comps <- eBay_comps(otu_tab, prior="Dirichlet-tree", tree=tree)
 
-eBay.zitree.comps <- eBay_comps(otu_tab,prior = "Dirichlet-tree", tree = tree, model= "MIX")
+eBay.zitree.comps <- eBay_comps(otu_tab,prior = "zero-inflated-Dirichlet-treee", tree = tree, model= "MIX")
 ```
 
 Log-ratio transformations
@@ -141,7 +141,7 @@ fit_tasso
 fit_classo <- TASSO(y, eBay.comps, tree = NULL) # constrained lasso
 fit_classo
 
-plot.onTree(fit_tasso, tree, model='TASSO')
+plot_onTree(fit_tasso, tree, model='TASSO')
 ```
 
 Tree-guided fused lasso
@@ -149,12 +149,9 @@ Tree-guided fused lasso
 fit_tflasso1 <- TreeFusedlasso(y, eBay.comps, tree)
 fit_tflasso1
 
-fit_tflasso2 <- TreeFusedlasso(y, eBay.comps, tree, type = 2)
-fit_tflasso2
 
 plot_onTree(fit_tflasso1, tree, model='TreeFusedlasso')
 
-plot_onTree(fit_tflasso2, tree, model='TreeFusedlasso')
 
 ```
 
