@@ -1,6 +1,7 @@
 # phyloMDA
 
 An R implementation of statistical methods from “Statistical Methods for Analyzing Tree Structured Microbiome Data” by Tao Wang and Hongyu Zhao.
+This is the manual for phyloMDA, An R package for phylogeny-aware microbiome data analysis. 
 
 To install this package on your machine, first install the devtools package
 ```r
