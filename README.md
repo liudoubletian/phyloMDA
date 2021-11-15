@@ -9,6 +9,7 @@ install.packages("devtools")
 devtools::install_github("liudoubletian/phyloMDA") 
 library(phyloMDA)  
 ```
+And the details of the manual could be found at https://rpubs.com/RChao/820127. 
 Here, we show a brief example.
 
 Load Example Data
