@@ -9,6 +9,7 @@ devtools::install_github("liudoubletian/phyloMDA")
 library(phyloMDA)  
 ```
 And the details of the manual could be found at the fold ```../Manual```. 
+
 Here, we show a brief example.
 
 Load Example Data
