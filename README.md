@@ -8,7 +8,7 @@ install.packages("devtools")
 devtools::install_github("liudoubletian/phyloMDA") 
 library(phyloMDA)  
 ```
-And the details of the manual could be found at https://github.com/liudoubletian/phyloMDA/blob/main/Manual_of_phyloMDA_Nov2021.html. 
+And the details of the manual could be found at the fold ../Manual. 
 Here, we show a brief example.
 
 Load Example Data
