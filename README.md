@@ -3,14 +3,10 @@
 An R implementation of statistical methods from “Statistical Methods for Analyzing Tree Structured Microbiome Data” by Tao Wang and Hongyu Zhao.
 
 
-To install this package on your machine, first install the devtools package
+You can also install the released version of phyloMDA from github with:
 ```r
 install.packages("devtools")  
-```
-and then use
-```r
-library(devtools)
-install_github("liudoubletian/phyloMDA")  
+devtools::install_github("liudoubletian/phyloMDA") 
 library(phyloMDA)  
 ```
 Here, we show a brief example.
