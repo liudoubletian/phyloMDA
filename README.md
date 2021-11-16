@@ -1,6 +1,6 @@
 # phyloMDA：An R package for phylogeny-aware microbiome data analysis. 
 
-This is an R package from "phyloMDA, an R package for phylogeny-aware microbiome data analysis" by Tiantian Liu, Chao Zhou, Huimin Wang, Hongyu Zhao, and Tao Wang. This manuscript has not been submitted to any other journal or conference for publication, nor any part of it previously published elsewhere. 
+This is an R package from "phyloMDA, an R package for phylogeny-aware microbiome data analysis" by Tiantian Liu, Chao Zhou, Huimin Wang, Hongyu Zhao, and Tao Wang. 
 
 You can also install phyloMDA from github with:
 ```r
