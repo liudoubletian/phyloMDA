@@ -4,6 +4,22 @@ This is an R package from "phyloMDA, an R package for phylogeny-aware microbiome
 
 You can also install phyloMDA from github with:
 ```r
+library(MGLM)
+library(plyr)
+library(caper)
+library(genlasso)
+library(magrittr)
+library(foreach)
+library(ape)
+library(miLineage)
+library(ggplot2)
+library(dplyr)
+library(readxl)
+library(methods)
+library(BiocManager)
+library(phyloseq)
+library(ggtree)
+library(adaANCOM)
 install.packages("devtools")  
 devtools::install_github("liudoubletian/phyloMDA") 
 library(phyloMDA)  
