@@ -13,7 +13,7 @@ install.packages(dplyr);library(dplyr)
 install.packages(readxl);library(readxl)
 library(methods)
 #Bioconductor library
-install.packages("BiocManager");library(BiocManager)
+install.packages("BiocManager")
 BiocManager::install("phyloseq");library(phyloseq)
 BiocManager::install("ggtree");library(ggtree)
 #other libraries
