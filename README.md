@@ -2,6 +2,7 @@
 
 This is an R package from "phyloMDA, an R package for phylogeny-aware microbiome data analysis" by Tiantian Liu, Chao Zhou, Huimin Wang, Hongyu Zhao, and Tao Wang. 
 
+Before 
 You can also install phyloMDA from github with:
 ```r
 library(MGLM)
