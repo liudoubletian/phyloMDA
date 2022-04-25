@@ -104,10 +104,10 @@ Extract_logL(sreg_dtm_tune)
 ```
 zero-inflated Dirichlet-tree multinomial regression
 ```r
-fit_zidtm <- ZIdtmFit(otu.tab, tree)
+fit_zidtm <- ZIdtmFit(otu_tab, tree)
 Extract_logL(fit_zidtm)
 
-reg_zidtm <- ZIdtmReg(otu.tab, sodium, tree=tree)
+reg_zidtm <- ZIdtmReg(otu_tab, sodium, tree=tree)
 ```
 Empirical Bayes normalization
 ```r
