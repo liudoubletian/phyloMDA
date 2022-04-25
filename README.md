@@ -21,7 +21,7 @@ library(phyloseq)
 library(ggtree)
 library(adaANCOM)
 ```
-And then you can also install phyloMDA from github with:
+Then you can also install phyloMDA from github with:
 ```r
 install.packages("devtools")  
 devtools::install_github("liudoubletian/phyloMDA") 
